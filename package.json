@@ -80,7 +80,8 @@
     "History.md",
     "Readme.md",
     "index.js",
-    "lib/"
+    "lib/",
+    "patch-env"
   ],
   "scripts": {
     "test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/ test/acceptance/",

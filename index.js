@@ -8,6 +8,6 @@
 
 'use strict';
 
-require('./patch-environment');
+require('./patch-env');
 
 module.exports = require('./lib/express');

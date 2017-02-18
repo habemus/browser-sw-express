@@ -11,7 +11,7 @@
 
 // XMLHttpRequest is used to figure out the environment features
 if (typeof global.XMLHttpRequest === 'undefined') {
-  global.XMLHttpRequest = XMLHttpRequest = function XMLHttpRequest () {
+  global.XMLHttpRequest = function XMLHttpRequest () {
     this.open = function open () {}
   };
 }
